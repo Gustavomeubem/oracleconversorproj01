@@ -1,3 +1,15 @@
+Infrastructure
+currency-converter-api/
+├── src/main/java/com/currencyconverter/
+│   ├── api/          # API communication classes
+│   ├── exception/    # Custom exception classes
+│   ├── model/        # Data model classes
+│   ├── util/         # Utility classes
+│   └── Main.java     # Main application class
+├── data/             # Data storage directory
+└── build.gradle      # Build configuration
+
+
 # Currency Converter API
 
 A comprehensive Java-based currency converter application that demonstrates Object-Oriented Programming principles, collection handling, API consumption, file operations, and error handling.
@@ -29,4 +41,5 @@ A comprehensive Java-based currency converter application that demonstrates Obje
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/currency-converter-api.git
+
 cd currency-converter-api
