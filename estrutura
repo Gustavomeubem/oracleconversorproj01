@@ -1,0 +1,25 @@
+currency-converter-api/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── currencyconverter/
+│   │   │           ├── api/
+│   │   │           │   ├── CurrencyConverterAPI.java
+│   │   │           │   ├── CurrencyService.java
+│   │   │           │   └── ExchangeRateResponse.java
+│   │   │           ├── exception/
+│   │   │           │   ├── CurrencyConversionException.java
+│   │   │           │   └── InvalidCurrencyException.java
+│   │   │           ├── model/
+│   │   │           │   ├── Currency.java
+│   │   │           │   └── ConversionResult.java
+│   │   │           ├── util/
+│   │   │           │   ├── FileManager.java
+│   │   │           │   └── Validator.java
+│   │   │           └── Main.java
+│   │   └── resources/
+│   └── test/
+├── data/
+│   └── conversion_history.txt
+└── README.md
